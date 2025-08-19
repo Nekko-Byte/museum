@@ -1,0 +1,16 @@
+h1,
+h2,
+h3 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: var(--fs-heading-1);
+}
+
+h2 {
+  font-size: var(--fs-heading-2);
+  line-height: var(--line-height-heading-2);
+}
