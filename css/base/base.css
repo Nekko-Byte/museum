@@ -36,6 +36,10 @@ body {
   background-color: var(--color-bg-dark);
 }
 
+li {
+  list-style: none;
+}
+
 .container {
   max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
   margin: 0 auto;
