@@ -1,0 +1,32 @@
+.logo {
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: end;
+  column-gap: 25px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo * {
+  transition: color 0.2s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.logo__title {
+  margin: 0;
+}
+
+.logo:hover {
+  color: var(--color-gold);
+
+  .icon {
+    background-color: var(--color-gold);
+  }
+}
+
+.logo:active {
+  color: var(--color-gold-dark);
+
+  .icon {
+    background-color: var(--color-gold-dark);
+  }
+}

@@ -1,5 +1,14 @@
+/* Vendors */
 @import "vendors/normalize.css";
 
+/* Base */
 @import "base/fonts.css";
 @import "base/typography.css";
 @import "base/base.css";
+
+/* Components */
+@import "components/logo.css";
+@import "components/icon.css";
+
+/* Layout */
+@import "layout/header.css";

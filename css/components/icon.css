@@ -1,0 +1,11 @@
+.icon {
+  background-color: var(--color-light);
+  -webkit-mask-size: cover;
+  -webkit-mask-repeat: no-repeat;
+}
+
+.icon--logo {
+  width: 49px;
+  height: 26px;
+  -webkit-mask-image: url("../../assets/icons/logo.svg");
+}
