@@ -47,3 +47,21 @@ li {
   margin: 0 auto;
   padding: 0 var(--container-padding-x);
 }
+
+.section-title--colored {
+  color: var(--color-gold);
+}
+
+.underline-title {
+  position: relative;
+}
+
+.underline-title::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: -15px;
+  background-color: var(--color-dark-red);
+}

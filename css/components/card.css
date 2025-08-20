@@ -1,0 +1,22 @@
+.card {
+  text-decoration: none;
+  color: var(--color-dark);
+}
+
+.card:hover .card__title.underline-title::before {
+  width: 100%;
+}
+
+.card__title {
+  margin: 0 0 25px 0;
+}
+
+.card__title.underline-title::before {
+  width: 70%;
+  bottom: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+.card__text {
+  font-weight: 100;
+}

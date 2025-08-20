@@ -10,7 +10,9 @@
 @import "components/logo.css";
 @import "components/icon.css";
 @import "components/button.css";
+@import "components/card.css";
 
 /* Layout */
 @import "layout/header.css";
 @import "layout/welcome.css";
+@import "layout/visiting.css";

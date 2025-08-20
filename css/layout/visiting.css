@@ -1,0 +1,14 @@
+.visiting {
+  padding: 75px 0;
+  background-color: var(--color-light);
+}
+
+.visiting__title {
+  margin: 0 0 100px 0;
+}
+
+.visiting__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 75px 60px;
+}
