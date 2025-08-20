@@ -1,0 +1,70 @@
+.explore {
+  padding: 75px 0;
+}
+
+.explore__inner {
+  display: flex;
+  column-gap: 60px;
+}
+
+.explore__body {
+  max-width: 660px;
+}
+
+.explore__title {
+  margin: 0 0 100px 0;
+}
+
+.explore__description {
+  font-weight: 300;
+}
+
+.explore__description > p:not(:last-child) {
+  margin: 0 0 25px 0;
+}
+
+.explore__description--colored {
+  color: var(--color-gold);
+}
+
+.explore__comparison {
+  position: relative;
+  max-width: 720px;
+  width: 100%;
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.explore__comparison-image.after {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.explore__comparison-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.explore__comparison-wrapper img {
+  width: auto;
+  height: 100%;
+  max-width: none;
+}
+
+.explore__comparison-handle {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 100%;
+  top: 50%;
+  left: 60%;
+  translate: -50% -50%;
+  background-image: url("../../assets/img/explore-slider/handle.png");
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
