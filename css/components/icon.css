@@ -1,9 +1,11 @@
 .icon {
+  display: inline-block;
   background-color: var(--color-light);
   -webkit-mask-size: cover;
   mask-size: cover;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .icon--logo {
@@ -11,4 +13,18 @@
   height: 26px;
   -webkit-mask-image: url("../../assets/icons/logo.svg");
   mask-image: url("../../assets/icons/logo.svg");
+}
+
+.icon--arrow-prev {
+  width: 30px;
+  height: 8px;
+  -webkit-mask-image: url("../../assets/icons/arrow-left.svg");
+  mask-image: url("../../assets/icons/arrow-left.svg");
+}
+
+.icon--arrow-next {
+  width: 30px;
+  height: 8px;
+  -webkit-mask-image: url("../../assets/icons/arrow-right.svg");
+  mask-image: url("../../assets/icons/arrow-right.svg");
 }

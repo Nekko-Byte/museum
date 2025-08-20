@@ -42,13 +42,14 @@
     <div class="welcome">
       <div class="welcome__inner container">
         <div class="welcome__body">
-          <h2 class="welcome__title title__light">Welcome to the Louvre</h2>
+          <h2 class="welcome__title title__light">Welcome to&nbsp;the Louvre</h2>
           <div class="welcome__description">
             <p>From the castle to the museum</p>
           </div>
           <a 
             class="welcome__link button button__welcome" 
             href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736"
+            target="_blank"
           >
             Discover the Louvre
           </a>
@@ -106,19 +107,19 @@
               <span class="welcome__slider-number-active">01</span> |
               <span class="welcome__slider-number-max">05</span>
             </p>
-            <div class="welcome__slider-bullets">
-              <span class="welcome__slider-bullets-item is-active"></span>
+            <div class="welcome__slider-bullets" aria-label="Slider navigation">
+              <span class="welcome__slider-bullets-item is-active" aria-current="true"></span>
               <span class="welcome__slider-bullets-item"></span>
               <span class="welcome__slider-bullets-item"></span>
               <span class="welcome__slider-bullets-item"></span>
               <span class="welcome__slider-bullets-item"></span>
             </div>
             <div class="welcome__slider-arrows">
-              <button class="welcome__slider-arrows-button">
-                <span class="welcome__slider-arrow-icon icon icon--arrow-prev"></span>
+              <button class="welcome__slider-arrows-button" aria-label="Previous slide">
+                <span class="welcome__slider-arrow-icon icon icon--arrow-prev" aria-hidden="true"></span>
               </button>
-              <button class="welcome__slider-arrows-button">
-                <span class="welcome__slider-arrow-icon icon icon--arrow-next"></span>
+              <button class="welcome__slider-arrows-button" aria-label="Next slide">
+                <span class="welcome__slider-arrow-icon icon icon--arrow-next" aria-hidden="true"></span>
               </button>
             </div>
           </div>

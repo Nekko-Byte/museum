@@ -9,6 +9,8 @@
 /* Components */
 @import "components/logo.css";
 @import "components/icon.css";
+@import "components/button.css";
 
 /* Layout */
 @import "layout/header.css";
+@import "layout/welcome.css";

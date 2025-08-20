@@ -13,4 +13,5 @@ h1 {
 h2 {
   font-size: var(--fs-heading-2);
   line-height: var(--line-height-heading-2);
+  letter-spacing: 5px;
 }
